@@ -1,6 +1,6 @@
 # ng-elm
 
-This npm package lets you embed Elm programs in Angular 2 components.<br>
+This npm package lets you embed Elm programs inside of Angular 2 components.<br>
 Based off of: https://github.com/evancz/react-elm-components
 
 ## Usage
