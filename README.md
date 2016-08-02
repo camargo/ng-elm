@@ -23,7 +23,7 @@ export class AppComponent implements OnInit {
     public Buttons: any;
 
     ngOnInit() {
-        this.Buttons = require('buttons.js').Buttons;
+        this.Buttons = require('app/buttons.js').Buttons;
     }
 }
 ```
