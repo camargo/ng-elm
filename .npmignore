@@ -1,0 +1,4 @@
+**/.editorconfig
+**/node_modules
+**/*.ts
+**/typings
