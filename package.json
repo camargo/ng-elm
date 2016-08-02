@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/camargo/ng-elm.git"
   },
+  "peerDependencies": {
+    "@angular/core": "2.0.0-rc.4"
+  },
   "devDependencies": {
     "@angular/core": "2.0.0-rc.4",
     "typescript": "^1.8.10"
