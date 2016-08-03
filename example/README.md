@@ -6,6 +6,7 @@ It was setup using the [Angular 2 Quickstart](https://angular.io/docs/ts/latest/
 ## Build Instructions
 
 To get this up and running first you need [Git](https://git-scm.com/), [Node.js](https://nodejs.org/), and [Elm](http://elm-lang.org/install) installed.<br>
+
 Then type the following commands:
 
 ```bash
