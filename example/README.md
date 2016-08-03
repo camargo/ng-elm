@@ -13,8 +13,8 @@ Then type the following commands:
 git clone https://github.com/camargo/ng-elm.git
 cd ng-elm/example
 npm install
-cd ng-elm/example/app
+cd app
 elm make Buttons.elm --output=buttons.js
-cd ng-elm/example
+cd ..
 npm start
 ```
