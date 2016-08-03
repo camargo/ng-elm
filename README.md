@@ -3,6 +3,12 @@
 This package lets you embed Elm programs inside of Angular 2 components.<br>
 Based off of: https://github.com/evancz/react-elm-components
 
+## Installation
+
+```bash
+npm install ng-elm
+```
+
 ## Example
 
 - Elm Buttons - [Code](https://github.com/camargo/ng-elm/tree/master/example)
