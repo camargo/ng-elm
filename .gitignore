@@ -1,3 +1,5 @@
 **/node_modules
 **/*.js
 **/typings
+
+!systemjs.config.js
