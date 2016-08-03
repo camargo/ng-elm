@@ -6,7 +6,7 @@ Based off of: https://github.com/evancz/react-elm-components
 ## Installation
 
 ```bash
-npm install ng-elm
+npm install ng-elm --save
 ```
 
 ## Example
