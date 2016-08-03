@@ -1,6 +1,6 @@
 {
   "name": "ng-elm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Write Angular 2 components in Elm",
   "main": "index.js",
   "scripts": {
