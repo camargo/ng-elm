@@ -4,6 +4,7 @@
   "description": "Write Angular 2 components in Elm",
   "main": "index.js",
   "scripts": {
+    "build": "tsc index.ts",
     "tsc": "tsc"
   },
   "repository": {

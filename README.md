@@ -31,3 +31,5 @@ export class AppComponent implements OnInit {
     }
 }
 ```
+
+Note that flags (data passed into your Elm program from Angular), and [ports](http://guide.elm-lang.org/interop/javascript.html) are also implemented.
