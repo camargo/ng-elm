@@ -5,7 +5,7 @@
 (function(global) {
   // map tells the System loader where to look for things
   var map = {
-    'app':                        'app', // 'dist',
+    'app':                        'app',
     '@angular':                   'node_modules/@angular',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     'rxjs':                       'node_modules/rxjs',
@@ -27,7 +27,6 @@
     'platform-browser',
     'platform-browser-dynamic',
     'router',
-    'router-deprecated',
     'upgrade',
   ];
   // Individual files (~300 requests):

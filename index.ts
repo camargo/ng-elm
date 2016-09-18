@@ -1,10 +1,10 @@
-import { Component, Input, OnInit, ElementRef } from '@angular/core';
+import { NgModule, Component, Input, OnInit, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'ng-elm',
   template: ``
 })
-export class NgElmComponent implements OnInit {
+class NgElmComponent implements OnInit {
   @Input() src: any;
   @Input() flags: any;
   @Input() ports: any;
@@ -19,3 +19,9 @@ export class NgElmComponent implements OnInit {
     }
   }
 }
+
+@NgModule({
+  declarations: [ NgElmComponent ],
+  exports:      [ NgElmComponent ]
+})
+export class NgElmModule {}
