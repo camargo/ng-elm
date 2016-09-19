@@ -6,7 +6,7 @@ import { NgElmModule } from 'ng-elm';
   selector: 'my-app',
   template: '<ng-elm [src]="Buttons"></ng-elm>'
 })
-export class AppComponent implements OnInit {
+class AppComponent implements OnInit {
     public Buttons: any;
 
     ngOnInit() {
