@@ -1,1 +1,8 @@
+.editorconfig
+.gitignore
+
 **/node_modules
+example
+build.sh
+clean.sh
+index.ts

@@ -1,10 +1,10 @@
 {
   "name": "ng-elm",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Write Angular 2 components in Elm",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --emitDecoratorMetadata --experimentalDecorators index.ts"
+    "build": "tsc -d --emitDecoratorMetadata --experimentalDecorators index.ts"
   },
   "repository": {
     "type": "git",
