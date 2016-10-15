@@ -4,8 +4,7 @@
   "description": "Write Angular 2 components in Elm",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -d --emitDecoratorMetadata --experimentalDecorators index.ts",
-    "prepublish": "bash build.sh"
+    "build": "tsc -d --emitDecoratorMetadata --experimentalDecorators index.ts"
   },
   "repository": {
     "type": "git",
