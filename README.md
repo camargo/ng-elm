@@ -28,11 +28,11 @@ import { NgElmModule } from 'ng-elm';
   template: '<ng-elm [src]="Buttons"></ng-elm>'
 })
 class AppComponent implements OnInit {
-    public Buttons: any;
+  public Buttons: any;
 
-    ngOnInit() {
-        this.Buttons = require('app/buttons.js').Buttons;
-    }
+  ngOnInit() {
+    this.Buttons = require('app/buttons.js').Buttons;
+  }
 }
 
 @NgModule({

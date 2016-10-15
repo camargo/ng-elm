@@ -10,11 +10,11 @@ To get this up and running first you need [Git](https://git-scm.com/), [Node.js]
 Then run the following script:
 
 ```bash
-sh install.sh
+sh build.sh
 ```
 
 ## Uninstall Instructions
 
 ```bash
-sh uninstall.sh
+sh clean.sh
 ```

@@ -1,6 +1,5 @@
 **/node_modules
 **/*.js
-**/typings
 **/elm-stuff
 
 !systemjs.config.js
