@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -d --emitDecoratorMetadata --experimentalDecorators index.ts",
-    "prepublish": "build"
+    "prepublish": "bash build.sh"
   },
   "repository": {
     "type": "git",
