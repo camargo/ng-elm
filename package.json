@@ -11,13 +11,13 @@
     "url": "git+https://github.com/camargo/ng-elm.git"
   },
   "dependencies": {
-    "@angular/core": "2.1.0",
+    "@angular/core": "2.1.2",
     "rxjs": "5.0.0-rc.1",
-    "zone.js": "^0.6.25"
+    "zone.js": "^0.6.26"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
-    "typescript": "^2.0.3"
+    "typescript": "^2.0.6"
   },
   "keywords": [
     "angular",
