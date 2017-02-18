@@ -1,7 +1,6 @@
 #!/bin/bash
 
 rm -rf node_modules
-rm -rf typings
 rm -rf elm-stuff
 
 cd app

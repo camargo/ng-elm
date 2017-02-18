@@ -1,11 +1,10 @@
 port module Buttons exposing (main)
 
-import Html exposing (div, button, text)
-import Html.App exposing (beginnerProgram)
+import Html exposing (Html, div, button, text)
 import Html.Events exposing (onClick)
 
 main =
-  beginnerProgram { model = 0, view = view, update = update }
+  Html.beginnerProgram { model = 0, view = view, update = update }
 
 view model =
   div []
