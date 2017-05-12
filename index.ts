@@ -12,7 +12,7 @@ class NgElmComponent implements OnInit {
   constructor(public element: ElementRef) {}
 
   ngOnInit() {
-    let app = this.src.embed(this.element.nativeElement, this.flags);
+    const app = this.src.embed(this.element.nativeElement, this.flags);
 
     if (typeof this.ports !== 'undefined') {
       this.ports(app.ports);
