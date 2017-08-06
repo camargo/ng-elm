@@ -1,7 +1,5 @@
 #!/bin/bash
 
-npm cache clean
-
 npm install
 elm-package install
 elm make app/Buttons.elm --output=app/buttons.js

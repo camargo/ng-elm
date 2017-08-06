@@ -1,6 +1,6 @@
 {
   "name": "ng-elm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Write Angular 2 components in Elm",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,13 @@
     "url": "git+https://github.com/camargo/ng-elm.git"
   },
   "dependencies": {
-    "@angular/core": "4.1.2",
-    "rxjs": "5.4.0",
-    "zone.js": "0.8.10"
+    "@angular/core": "4.3.3",
+    "rxjs": "5.4.2",
+    "zone.js": "0.8.16"
   },
   "devDependencies": {
     "@types/core-js": "0.9.36",
-    "typescript": "2.3.2"
+    "typescript": "2.4.2"
   },
   "keywords": [
     "angular",
