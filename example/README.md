@@ -1,7 +1,6 @@
 # ng-elm example app
 
-This is a basic Angular 2 app that uses ng-elm. 
-It was setup using the [Angular 2 Quickstart](https://angular.io/docs/ts/latest/quickstart.html).
+This is a basic Angular app that uses ng-elm.
 
 ## Build and Run Instructions
 
