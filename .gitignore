@@ -3,4 +3,5 @@
 **/elm-stuff
 index.d.ts
 
-!systemjs.config.js
+!karma.conf.js
+!protractor.conf.js
