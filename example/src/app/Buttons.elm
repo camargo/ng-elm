@@ -1,30 +1,26 @@
 port module Buttons exposing (main)
 
-import Html exposing (Html, div, button, text)
+import Browser
+import Html exposing (Html, button, div, text)
 import Html.Events exposing (onClick)
 
--- Main.
 
 main =
-  Html.beginnerProgram
-    { model = 0
-    , view = view
-    , update = update
-    }
+  Browser.sandbox { init = init, update = update, view = view }
 
--- Model.
+
+-- MODEL
 
 type alias Model = Int
 
-model : Model
-model =
+init : Model
+init =
   0
 
--- Update.
 
-type Msg
-  = Increment
-  | Decrement
+-- UPDATE
+
+type Msg = Increment | Decrement
 
 update : Msg -> Model -> Model
 update msg model =
@@ -35,12 +31,13 @@ update msg model =
     Decrement ->
       model - 1
 
--- View.
+
+-- VIEW
 
 view : Model -> Html Msg
 view model =
   div []
     [ button [ onClick Decrement ] [ text "-" ]
-    , div [] [ text (toString model) ]
+    , div [] [ text (String.fromInt model) ]
     , button [ onClick Increment ] [ text "+" ]
     ]

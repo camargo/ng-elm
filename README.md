@@ -1,7 +1,7 @@
 # ng-elm
 
-This package lets you embed Elm programs inside of Angular components.<br>
-Based off of: https://github.com/evancz/react-elm-components
+This package lets you embed [Elm](https://elm-lang.org/) programs inside of [Angular](https://angular.io/) components.<br>
+Based off of: [https://github.com/evancz/react-elm-components](https://github.com/evancz/react-elm-components)
 
 ## Installation
 
@@ -16,7 +16,7 @@ npm install ng-elm --save
 ## Usage
 
 After compiling your Elm program into JavaScript, you can embed it in Angular.<br>
-This example uses the [Elm buttons program](http://elm-lang.org/examples/buttons) :
+This example uses the [Elm buttons program](https://guide.elm-lang.org/architecture/buttons.html) :
 
 ```ts
 import { NgModule, Component, OnInit } from '@angular/core';
@@ -25,22 +25,22 @@ import { NgElmModule } from 'ng-elm';
 
 @Component({
   selector: 'my-app',
-  template: '<ng-elm [src]="Buttons"></ng-elm>'
+  template: '<ng-elm [src]="Buttons"></ng-elm>',
 })
 class AppComponent implements OnInit {
   public Buttons: any;
 
   ngOnInit() {
-    this.Buttons = require('app/buttons.js').Buttons;
+    this.Buttons = require('src/app/buttons.js').Elm.Buttons;
   }
 }
 
 @NgModule({
-  imports:      [ BrowserModule, NgElmModule ],
-  declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, NgElmModule],
+  declarations: [AppComponent],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
 ```
 
-Note that flags (data passed into your Elm program from Angular), and [ports](http://guide.elm-lang.org/interop/javascript.html) are also implemented.
+Note that flags (data passed into your Elm program from Angular), and [ports](https://guide.elm-lang.org/interop/ports.html) are also implemented.

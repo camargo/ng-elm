@@ -1,19 +1,27 @@
-# ng-elm example app
+# Example
 
-This is a basic Angular app that uses ng-elm.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.3.
 
-## Build and Run Instructions
+## Development server
 
-To get this up and running first you need [Git](https://git-scm.com/), [Node.js](https://nodejs.org/), and [Elm](http://elm-lang.org/install) installed.<br>
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Then run the following script:
+## Code scaffolding
 
-```bash
-bash build.sh
-```
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Uninstall Instructions
+## Build
 
-```bash
-bash clean.sh
-```
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

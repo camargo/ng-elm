@@ -1,23 +1,23 @@
 {
   "name": "ng-elm",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Write Angular 2 components in Elm",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -d --emitDecoratorMetadata --experimentalDecorators index.ts"
+    "build": "tsc",
+    "clean": "tsc --build --clean"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/camargo/ng-elm.git"
   },
   "dependencies": {
-    "@angular/core": "^5.2.9",
-    "rxjs": "^5.5.10",
-    "zone.js": "^0.8.26"
+    "@angular/core": "^8.0.1",
+    "rxjs": "^6.5.2",
+    "zone.js": "^0.9.1"
   },
   "devDependencies": {
-    "@types/core-js": "0.9.36",
-    "typescript": "^2.8.1"
+    "typescript": "^3.5.2"
   },
   "keywords": [
     "angular",
