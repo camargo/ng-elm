@@ -4,8 +4,8 @@ import { AppComponent } from './app.component';
 import { NgElmModule } from 'ng-elm';
 
 @NgModule({
+  bootstrap: [AppComponent],
   declarations: [AppComponent],
   imports: [BrowserModule, NgElmModule],
-  bootstrap: [AppComponent],
 })
 export class AppModule {}

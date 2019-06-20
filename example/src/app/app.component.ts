@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Elm } from './buttons.js';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   Buttons: any;
-  title = 'ng-elm';
 
   ngOnInit() {
-    // @ts-ignore
-    this.Buttons = require('src/app/buttons.js').Elm.Buttons;
+    this.Buttons = Elm.Buttons;
   }
 }

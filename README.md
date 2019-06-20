@@ -22,23 +22,24 @@ This example uses the [Elm buttons program](https://guide.elm-lang.org/architect
 import { NgModule, Component, OnInit } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgElmModule } from 'ng-elm';
+import { Elm } from './buttons.js';
 
 @Component({
   selector: 'my-app',
   template: '<ng-elm [src]="Buttons"></ng-elm>',
 })
 class AppComponent implements OnInit {
-  public Buttons: any;
+  Buttons: any;
 
   ngOnInit() {
-    this.Buttons = require('src/app/buttons.js').Elm.Buttons;
+    this.Buttons = Elm.Buttons;
   }
 }
 
 @NgModule({
-  imports: [BrowserModule, NgElmModule],
-  declarations: [AppComponent],
   bootstrap: [AppComponent],
+  declarations: [AppComponent],
+  imports: [BrowserModule, NgElmModule],
 })
 export class AppModule {}
 ```
